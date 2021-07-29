@@ -1,0 +1,29 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <VersionPrefix>0.0.1</VersionPrefix>
+    <VersionSuffix>rc.1</VersionSuffix>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <!--authors-->
+  <PropertyGroup>
+    <Authors>maple512</Authors>
+    <Product>$(RootName)</Product>
+  </PropertyGroup>
+
+  <!--warn-->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CS1591;CS1573;CS8618;</NoWarn>
+  </PropertyGroup>
+
+  <!--repository-->
+  <PropertyGroup>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/one-land/framework</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>

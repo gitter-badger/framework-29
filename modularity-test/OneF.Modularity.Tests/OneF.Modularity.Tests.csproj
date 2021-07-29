@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="../../common.props" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(NetFramework)</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\modularity\OneF.Modularity\OneF.Modularity.csproj" />
+    <ProjectReference Include="..\OneF.Modularity.TestModule1\OneF.Modularity.TestModule1.csproj" />
+    <ProjectReference Include="..\OneF.Modularity.TestModule2\OneF.Modularity.TestModule2.csproj" />
+  </ItemGroup>
+
+</Project>

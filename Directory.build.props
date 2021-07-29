@@ -1,0 +1,14 @@
+<Project>
+
+  <PropertyGroup>
+    <RootName>OneF</RootName>
+
+    <!-- Net Version -->
+    <NetFramework>net6.0</NetFramework>
+
+    <!-- Microsoft Version -->
+    <MSVersion>5.0.0</MSVersion>
+
+  </PropertyGroup>
+
+</Project>
