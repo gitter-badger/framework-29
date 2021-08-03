@@ -4,6 +4,8 @@
 
 ## 目标
 
+[![Join the chat at https://gitter.im/one-gitter-community/framework](https://badges.gitter.im/one-gitter-community/framework.svg)](https://gitter.im/one-gitter-community/framework?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - 尽量减少代码侵入，使用`Attribute`来达到框架的目的
 - 会被外部引用的实现，抽象类，需加前缀`OneF`
 - 框架的行为尽可能实现可通过配置更改
